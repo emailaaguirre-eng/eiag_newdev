@@ -10,55 +10,56 @@ import {
   FileText,
   TrendingUp,
   Award,
+  Users,
 } from "lucide-react";
 import Link from "next/link";
 
 const services = [
   {
-    icon: DollarSign,
-    title: "Federal Hiring Credits",
+    icon: MapPin,
+    title: "Site Selection / Labor Analysis / Strategic Location Studies",
     description:
-      "Maximize your federal tax credits including Work Opportunity Tax Credit (WOTC) and other employment-based incentives.",
+      "As part of this evaluation, EIAG | SITE pinpoints economic incentives that are readily available and not being claimed or fully maximized. For locations under consideration, EIAG | SITE identifies grants, tax credits, property tax abatements, energy discounts, and discretionary incentives that will lower your operating costs at the new site.",
     color: "from-primary to-primary-dark",
     iconColor: "text-primary",
   },
   {
     icon: Building2,
-    title: "State Tax Credits",
+    title: "Micro-Market Insights",
     description:
-      "Navigate complex state incentive programs to secure hiring credits, training grants, and economic development incentives.",
+      "Skill sets available at the micro-market level, competitor studies to identify other employers pursuing similar employee skill sets, and drive-time analysis for highly skilled employees.",
     color: "from-accent to-accent-dark",
     iconColor: "text-accent",
   },
   {
-    icon: MapPin,
-    title: "Site Selection",
+    icon: Users,
+    title: "Headquarters & Regional Offices",
     description:
-      "Strategic location analysis to identify the best incentives, tax structures, and economic development opportunities.",
+      "Workforce availability, remote work feasibility studies, hybrid work readiness assessments, and remote vs. on-site analysis.",
     color: "from-success to-success-dark",
     iconColor: "text-success",
   },
   {
-    icon: FileText,
-    title: "R&D Tax Credits",
+    icon: TrendingUp,
+    title: "Manufacturing & Distribution Factors",
     description:
-      "Identify and claim Research & Development tax credits for qualifying activities and innovation investments.",
+      "Infrastructure quality and capacity, supply chain considerations, freight costs and distribution networks, proximity to clients, suppliers, ports, and rail lines, plus natural disaster exposure and other risk factors.",
     color: "from-successAlt to-successAlt-dark",
     iconColor: "text-successAlt",
   },
   {
-    icon: TrendingUp,
-    title: "Economic Development",
+    icon: FileText,
+    title: "Incentive Identification & Application",
     description:
-      "Comprehensive economic development incentive programs including grants, loans, and tax abatements.",
+      "We help U.S. businesses access grants, tax credits, training reimbursements, energy incentives, and more with no upfront costs. Billions in grants and tax credits go unclaimed every year.",
     color: "from-primary to-accent",
     iconColor: "text-primary",
   },
   {
     icon: Award,
-    title: "Incentive Compliance",
+    title: "End-to-End Support",
     description:
-      "Ongoing compliance management and reporting to ensure you maintain eligibility and maximize benefits.",
+      "We don't stop at applying. We stay with you through reporting, compliance, and every deadline in between—so you don't just win the grant, you actually get the money.",
     color: "from-accent to-success",
     iconColor: "text-accent",
   },
@@ -112,12 +113,11 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-black text-primary mb-4">
-            Our Services
+            <h2 className="text-4xl md:text-5xl font-black text-primary mb-4">
+            EIAG | SITE—In a Class by Itself
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Comprehensive economic incentive solutions to maximize your business
-            opportunities and reduce costs.
+            We help our clients make the best informed decisions by leveraging our proprietary labor assessment – site selection database that tracks every market, submarket and micro-market in the United States.
           </p>
         </motion.div>
 

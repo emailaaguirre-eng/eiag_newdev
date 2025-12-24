@@ -8,9 +8,9 @@ import { Quote, Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "EIAG helped us secure over $2 million in tax credits we didn't even know we qualified for. Their expertise is unmatched.",
-    author: "Sarah Johnson",
-    role: "CFO, Tech Innovations Inc.",
+      "We knew there were programs out there, but we didn't have the time or staff. EIAG found over $1.2 million in training grants we never knew we qualified for. And we barely had to lift a finger.",
+    author: "CFO",
+    role: "National Manufacturing Firm",
     rating: 5,
   },
   {
@@ -80,8 +80,7 @@ export default function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Trusted by businesses across industries to maximize their economic
-            incentives and reduce costs.
+            Trusted by Companies Like Yours, from Early Stage Start-Ups to Industry Giants
           </p>
         </motion.div>
 

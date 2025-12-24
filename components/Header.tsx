@@ -2,15 +2,21 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navigation = [
   { name: "Home", href: "/" },
+  { name: "Economic Incentives", href: "/economic-incentives" },
+  { name: "Site Selection", href: "/site-selection" },
+  { name: "Why EIAG", href: "/why-eiag" },
   { name: "Services", href: "/services" },
   { name: "About", href: "/about" },
   { name: "Case Studies", href: "/case-studies" },
   { name: "Blog", href: "/blog" },
+  { name: "Videos", href: "/videos" },
+  { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -37,11 +43,17 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-black text-primary">EIAG</span>
-            <span className="text-sm text-neutral-600 hidden sm:inline">
-              Economic Incentives Advisory Group
-            </span>
+          <Link href="/" className="flex items-center space-x-3">
+            <div className="relative h-10 w-auto">
+              <Image
+                src="/logo.png"
+                alt="EIAG Logo"
+                width={120}
+                height={40}
+                className="h-10 w-auto object-contain"
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

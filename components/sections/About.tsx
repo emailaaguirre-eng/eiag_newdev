@@ -39,17 +39,16 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-black text-primary mb-6">
-              Why Choose EIAG?
+              Uncover Government Funds Through EIAG's Incentive Finder and Site Selection
             </h2>
-            <p className="text-xl text-neutral-600 mb-8 leading-relaxed">
-              Economic Incentives Advisory Group is the leading expert in securing
-              government funding and tax credits for businesses. Our comprehensive
-              approach ensures you maximize every opportunity.
+            <p className="text-xl text-neutral-600 mb-6 leading-relaxed">
+              At EIAG, we are dedicated to helping businesses thrive by navigating the complex landscape of government incentives. Our mission is to ensure every eligible company can access the financial support to which they are entitled, based on their location, industry, and business activity.
+            </p>
+            <p className="text-lg text-neutral-700 mb-6 leading-relaxed">
+              Most companies are unaware that job creation, capital expenditure (CAPEX) investment, facility relocation/expansion, workforce training, innovation, clean energy investment, and other activities can trigger eligibility for government funding. We partner with businesses to unlock these opportunities and drive economic success.
             </p>
             <p className="text-lg text-neutral-700 mb-8 leading-relaxed">
-              With a proven track record of securing over $15 billion in incentives,
-              we combine deep regulatory knowledge with strategic business insight to
-              deliver exceptional results for our clients.
+              Over two decades, our team has provided guidance and support to companies of all sizes, from emerging startups to Fortune 100 companies.
             </p>
             <div className="space-y-4">
               {features.map((feature, index) => {

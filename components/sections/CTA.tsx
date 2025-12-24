@@ -15,27 +15,38 @@ export default function CTA() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-            Ready to Maximize Your Incentives?
+            You Might Be One Call Away from Funding You Didn't Know Existed
           </h2>
-          <p className="text-xl text-white/90 mb-10 leading-relaxed">
-            Let's discuss how we can help secure millions in economic incentives
-            for your business. Get started with a free consultation today.
+          <p className="text-xl text-white/90 mb-6 leading-relaxed">
+            Whether you're training, hiring, upgrading, or growing—there's probably something out there for you. Let's talk through it.
+          </p>
+          <p className="text-lg text-white/80 mb-10 leading-relaxed">
+            Let us send you a quick, no-strings-attached snapshot of the programs you may qualify for—based on your industry, location, and growth.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Link
               href="/contact"
               className="group bg-white text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-neutral-50 transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
             >
-              <span>Schedule a Consultation</span>
+              <span>Book Your Free Incentive Review Call</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link
-              href="/contact"
-              className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition-all duration-300 border-2 border-white/20"
-            >
-              Learn More
-            </Link>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-white/90 text-sm">
+            <div className="flex items-center space-x-2">
+              <span className="text-success">✅</span>
+              <span>Takes under 2 minutes</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <span className="text-success">✅</span>
+              <span>No obligation, no hard sell</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <span className="text-success">✅</span>
+              <span>Customized to your business</span>
+            </div>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-white/90">
