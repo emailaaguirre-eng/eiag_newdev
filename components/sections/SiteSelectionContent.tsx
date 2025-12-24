@@ -86,7 +86,7 @@ export default function SiteSelectionContent() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white">
               Smart Growth Starts with the Right Location
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
@@ -296,17 +296,23 @@ export default function SiteSelectionContent() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="bg-gradient-to-br from-neutral-50 to-white rounded-xl p-6 border border-neutral-100">
-                <TrendingUp className="h-12 w-12 text-accent mb-4" />
+                <div className="inline-flex p-3 rounded-lg bg-gradient-to-br from-success to-success-dark mb-4">
+                  <TrendingUp className="h-12 w-12 text-white" />
+                </div>
                 <h3 className="text-xl font-black text-primary mb-2">Data-Driven Decisions</h3>
                 <p className="text-neutral-600">Comprehensive analysis backed by proprietary databases and market intelligence.</p>
               </div>
               <div className="bg-gradient-to-br from-neutral-50 to-white rounded-xl p-6 border border-neutral-100">
-                <Award className="h-12 w-12 text-success mb-4" />
+                <div className="inline-flex p-3 rounded-lg bg-gradient-to-br from-primary to-primary-dark mb-4">
+                  <Award className="h-12 w-12 text-white" />
+                </div>
                 <h3 className="text-xl font-black text-primary mb-2">Proven Results</h3>
                 <p className="text-neutral-600">Millions in cost savings and optimal locations for Fortune 500 companies.</p>
               </div>
               <div className="bg-gradient-to-br from-neutral-50 to-white rounded-xl p-6 border border-neutral-100">
-                <MapPin className="h-12 w-12 text-successAlt mb-4" />
+                <div className="inline-flex p-3 rounded-lg bg-gradient-to-br from-successAlt to-accent mb-4">
+                  <MapPin className="h-12 w-12 text-white" />
+                </div>
                 <h3 className="text-xl font-black text-primary mb-2">Fully Customized</h3>
                 <p className="text-neutral-600">Every study tailored to your unique business needs and objectives.</p>
               </div>

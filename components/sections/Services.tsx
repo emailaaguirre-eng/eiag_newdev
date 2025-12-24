@@ -84,8 +84,8 @@ function ServiceCard({
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <div className="group h-full bg-white rounded-xl p-8 shadow-card hover:shadow-card-hover transition-all duration-300 border border-neutral-100 hover:border-accent hover:-translate-y-1">
-        <div className={`inline-flex p-4 rounded-lg bg-gradient-to-br ${service.color} bg-opacity-10 mb-6`}>
-          <Icon className={`h-8 w-8 ${service.iconColor}`} />
+        <div className={`inline-flex p-4 rounded-lg bg-gradient-to-br ${service.color} mb-6`}>
+          <Icon className="h-8 w-8 text-white" />
         </div>
         <h3 className="text-2xl font-black text-primary mb-4">{service.title}</h3>
         <p className="text-neutral-600 leading-relaxed mb-6">{service.description}</p>

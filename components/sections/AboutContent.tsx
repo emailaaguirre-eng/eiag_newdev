@@ -87,7 +87,7 @@ export default function AboutContent() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white">
               Discover Who We Are
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
@@ -247,8 +247,8 @@ export default function AboutContent() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-gradient-to-br from-neutral-50 to-white rounded-xl p-8 shadow-card hover:shadow-card-hover transition-all duration-300 border border-neutral-100"
                 >
-                  <div className={`inline-flex p-4 rounded-lg bg-gradient-to-br ${value.color} bg-opacity-10 mb-6`}>
-                    <Icon className="h-10 w-10 text-primary" />
+                  <div className={`inline-flex p-4 rounded-lg bg-gradient-to-br ${value.color} mb-6`}>
+                    <Icon className="h-10 w-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-black text-primary mb-4">{value.title}</h3>
                   <p className="text-neutral-700 leading-relaxed">{value.description}</p>

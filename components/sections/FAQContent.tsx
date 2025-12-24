@@ -140,7 +140,7 @@ export default function FAQContent() {
             className="text-center max-w-4xl mx-auto"
           >
             <HelpCircle className="h-16 w-16 text-accent mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white">
               Frequently Asked Questions
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
